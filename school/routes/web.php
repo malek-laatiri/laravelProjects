@@ -19,3 +19,4 @@ Route::get('/show/{id}', "StudentController@show");
 Route::get('/create', "StudentController@create");
 Route::post('/store', "StudentController@store");
 Route::get('/update/{id}', "StudentController@update");
+Route::get('/delete/{id}', "StudentController@destroy");

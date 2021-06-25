@@ -22,7 +22,7 @@
             <td>
                 <a href="{{'/show/'.$student->id}}" class="btn btn-sm btn-info">show</a>
                 <a href="{{'/edit/'.$student->id}}" class="btn btn-sm btn-warning">Edit</a>
-                <a href="{{'/edit/'.$student->id}}" class="btn btn-sm btn-danger">Delete</a>
+                <a href="{{'/delete/'.$student->id}}" class="btn btn-sm btn-danger">Delete</a>
 
 
             </td>
