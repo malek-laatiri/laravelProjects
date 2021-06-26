@@ -9,3 +9,11 @@ Q
 !resources/views/student.blade.php,b/d/bdcd237ee2421b89fe70aba84be14040109a012d
 P
  resources/views/create.blade.php,8/d/8dc9c3f9d5230c78c708ed818e3792fbf4e6d4ec
+o
+?database/migrations/2021_06_25_090504_create_students_table.php,1/6/1620b56288d9800acf9ed0daaec65d2ad34e894b
+g
+7database/migrations/2021_06_25_102100_student_table.php,4/5/45ffa90a3604141ba3117e272330e90da208127e
+N
+resources/views/edit.blade.php,a/9/a9528df74e8e1811953cc04b4ee677bb7f7f1570
+N
+resources/views/show.blade.php,3/5/351196734c80866917cc6078985227c49336323e
