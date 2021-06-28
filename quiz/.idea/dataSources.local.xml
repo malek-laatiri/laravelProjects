@@ -9,7 +9,7 @@
       <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <introspection-schemas>*:@,db_test</introspection-schemas>
+      <introspection-schemas>*:@,db_test,jtime</introspection-schemas>
     </data-source>
   </component>
 </project>
