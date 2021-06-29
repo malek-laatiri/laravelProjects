@@ -5,6 +5,7 @@ use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LogoutController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\PostLikeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\RegisterController;
 /*
@@ -39,3 +40,10 @@ Route::get('/', function () {
 
 Route::get('/posts',[PostController::class,'index'])->name('posts');
 Route::post('/posts',[PostController::class,'store'])->name('posts');
+
+
+Route::post('/posts/{post}/like',[PostLikeController::class,'store'])->name('posts.like');
+Route::delete('/posts/{post}/dislike',[PostLikeController::class,'destroy'])->name('posts.dislike');
+
+
+Route::delete('/posts/{post}',[PostController::class,'destroy'])->name('posts.delete');

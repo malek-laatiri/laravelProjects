@@ -57,3 +57,9 @@ U
 %resources/views/posts/index.blade.php,d/6/d6ec0ea5bf4127430338250cfeec922c4937ee09
 W
 'app/Http/Controllers/PostController.php,0/f/0f8778ff4ac494f2086f89a52a9f74772ba4c8be
+l
+<database/migrations/2021_06_28_191201_create_likes_table.php,8/6/869096004f51bdeeba2e3e83028ba507f191fdbe
+<
+app/Like.php,4/1/419ea9334d344174314461fc3c064d14efb9dfba
+[
++app/Http/Controllers/PostLikeController.php,8/d/8d46222a153dde03439ea6f3b67042bb20294bdb
