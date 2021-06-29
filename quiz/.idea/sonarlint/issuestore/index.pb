@@ -63,3 +63,9 @@ l
 app/Like.php,4/1/419ea9334d344174314461fc3c064d14efb9dfba
 [
 +app/Http/Controllers/PostLikeController.php,8/d/8d46222a153dde03439ea6f3b67042bb20294bdb
+K
+app/Policies/PostPolicy.php,5/a/5a23cf8ecee6317c3c5cf2259d8a070b9fed1514
+U
+%app/Providers/AuthServiceProvider.php,a/5/a526ceaeed37cec3622903d924e7bbaf01d42971
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
