@@ -17,8 +17,10 @@ class CreateCarsTable extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->foreignId('brand_id')->constrained()->onDelete('cascade');
-            $table->foreignId('file')->constrained()->onDelete('cascade');
-            $table->string('name');
+            $table->foreignId('file_id')->constrained()->onDelete('cascade');
+             $table->foreignId('category_id')->constrained()->onDelete('cascade');
+
+             $table->string('name');
             $table->string('description');
             $table->decimal('price');
             $table->timestamps();
