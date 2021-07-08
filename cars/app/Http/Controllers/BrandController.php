@@ -25,7 +25,8 @@ class BrandController extends Controller
      */
     public function create()
     {
-        //
+        return view('brands.new');
+
     }
 
     /**
@@ -36,7 +37,13 @@ class BrandController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate([
+            'name'=>'required'
+        ]);
+        Brand::create( [
+            'name'=>$request->name
+        ]);
+        return back();
     }
 
     /**
