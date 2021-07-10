@@ -15,3 +15,11 @@ S
 #app/Http/Controllers/Controller.php,2/e/2ed23e1749f02eb8e561f0a531d07863e7cf9fb9
 W
 'app/Http/Controllers/FileController.php,4/2/4297c39014559638e1e599a7f54915a54a3eeffe
+a
+1resources/views/backoffice/brands/index.blade.php,9/9/993def4e6ad149dddca50fa8493ae8e3773ea9d0
+e
+5resources/views/backoffice/categories/index.blade.php,7/2/72e9ad8b4214f1d4d5f8b3b4910e91ed60bd7748
+c
+3resources/views/backoffice/categories/new.blade.php,6/5/65da15cc21d512a1176732a96a7f5e257da6bf37
+_
+/resources/views/backoffice/brands/new.blade.php,e/3/e3f549e02790b82a84894d04ccc241481ab77acf
