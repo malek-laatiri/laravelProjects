@@ -15,7 +15,7 @@ class BrandController extends Controller
     public function index()
     {
         $brands=Brand::get();
-        return view('brands.index',$brands);
+        return view('backoffice.brands.index',$brands);
     }
 
     /**
@@ -25,7 +25,7 @@ class BrandController extends Controller
      */
     public function create()
     {
-        return view('brands.new');
+        return view('backoffice.brands.new');
 
     }
 
@@ -37,7 +37,7 @@ class BrandController extends Controller
      */
     public function store(Request $request)
     {
-        $this->validate([
+        $this->validate($request,[
             'name'=>'required'
         ]);
         Brand::create( [
