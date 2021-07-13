@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BrandController;
+use App\Http\Controllers\BackofficeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,3 +15,4 @@ use App\Http\Controllers\BrandController;
 */
 
 Route::resource('brands','BrandController');
+Route::get('/admin',[BackofficeController::class,'index'])->name('admin');
