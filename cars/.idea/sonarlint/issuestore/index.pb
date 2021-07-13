@@ -23,3 +23,9 @@ c
 3resources/views/backoffice/categories/new.blade.php,6/5/65da15cc21d512a1176732a96a7f5e257da6bf37
 _
 /resources/views/backoffice/brands/new.blade.php,e/3/e3f549e02790b82a84894d04ccc241481ab77acf
+>
+routes/web.php,6/b/6b9a783d9b43fee50fd28f56dbd1856d2608f305
+[
++resources/views/backoffice/layout.blade.php,b/8/b8e98a17754afebeb6bf31f3255145b69f18cf05
+=
+app/Brand.php,c/d/cd7e93ced69203ea510aceb4f758fc5f89efdeef
